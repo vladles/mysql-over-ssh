@@ -1,4 +1,13 @@
 # mysql-over-ssh
+
+The main problem was that it was not possible to add a private database cluster to the DigitalOcean App Platform.  
+[related-issue1](https://www.digitalocean.com/community/questions/how-to-add-my-digitalocean-app-as-a-trusted-resource-for-my-managed-database). 
+[related-issue2](https://www.digitalocean.com/community/questions/app-platform-bug-cant-set-as-a-trusted-source-for-database-cluster). 
+
+### Notice:
+>**Proxy server must be in one VPC and allowed to the database cluster**
+
+The problem was solved in this way.
 Simple example how we can use a private network of the DigitalOcean Cluster MySql database on NodeJs.  
 Based on [mysql2](https://github.com/sidorares/node-mysql2) lib and [ssh2](https://github.com/mscdex/ssh2).
 
