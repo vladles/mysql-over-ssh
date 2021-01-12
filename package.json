@@ -1,0 +1,24 @@
+{
+  "name": "mysql-over-ssh",
+  "version": "1.0.0",
+  "description": "The only way to use a private network of the DigitalOcean Cluster MySql database",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladles/mysql-over-ssh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladles/mysql-over-ssh/issues"
+  },
+  "homepage": "https://github.com/vladles/mysql-over-ssh#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mysql2": "^2.2.5",
+    "ssh2": "^0.8.9"
+  }
+}
